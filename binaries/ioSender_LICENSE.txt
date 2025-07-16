@@ -1,0 +1,3 @@
+ioSender - G-code sender application  
+Licensed under BSD 3-Clause License  
+Source: https://github.com/terjeio/ioSender
