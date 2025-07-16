@@ -1,5 +1,5 @@
 # LC-CNC
-# \# 🛠️ Low-Cost Desktop CNC Repository
+# \ Low-Cost CNC Desktop Milling Machine
 
 # 
 
@@ -7,21 +7,21 @@
 
 # 
 
-# \- ✅ Mechanical design (SolidWorks files)
+# \- Mechanical design (SolidWorks files)
 
-# \- 📘 Assembly + wiring instructions
+# \- Assembly + wiring instructions
 
-# \- 🎓 Educational curriculum tailored for the machine
+# \- Educational curriculum tailored for the machine
 
-# \- 🧠 Precompiled firmware and control software for ease of use
-
-# 
-
-# ---
+# \- Open-source firmware and control software for ease of use
 
 # 
 
-# \## 📥 Downloads
+# 
+
+# 
+
+# \ Downloads
 
 # 
 
@@ -29,15 +29,15 @@
 
 # 
 
-# \- \*\*GRBLHAL for Teensy 4.1\*\*  
+# \- \*\*grblHAL for Teensy 4.x\*\*  
 
-# &nbsp; `grblHAL\_teensy4.hex` (GPL-3.0+ licensed)
+# https://github.com/phil-barrett/grblHAL-teensy-4.x
 
 # 
 
 # \- \*\*ioSender\*\*  
 
-# &nbsp; `ioSender\_vX.X.X.zip` (BSD-3-Clause licensed)
+# https://github.com/terjeio/ioSender
 
 # 
 
@@ -49,51 +49,8 @@
 
 # 
 
-# \## 📂 Folder Structure
 
-# 
-
-# ```bash
-
-# /
-
-# ├── LICENSE
-
-# ├── README.md
-
-# ├── binaries/
-
-# │   ├── grblHAL\_teensy4.hex
-
-# │   └── ioSender\_vX.X.X.zip
-
-# ├── cad/
-
-# │   └── \[SolidWorks part and assembly files]
-
-# ├── docs/
-
-# │   ├── wiring\_guide.pdf
-
-# │   └── assembly\_manual.pdf
-
-# ├── curriculum/
-
-# │   └── lesson\_plans/
-
-# ├── THIRD\_PARTY\_LICENSES.txt
-
-# └── .gitignore
-
-# ```
-
-# 
-
-# ---
-
-# 
-
-# \## 📄 License
+# \ License
 
 # 
 
@@ -127,7 +84,7 @@
 
 # 
 
-# \## 📎 Third-Party Software
+# \ Third-Party Software
 
 # 
 
@@ -135,9 +92,9 @@
 
 # 
 
-# \- GRBLHAL (GPL-3.0+): https://github.com/terjeio/grblHAL
+# \- grblHAL (GPL-3.0+)
 
-# \- ioSender (BSD-3-Clause): https://github.com/terjeio/ioSender
+# \- ioSender (BSD-3-Clause)
 
 # 
 
@@ -145,15 +102,15 @@
 
 # 
 
-# \## 🚀 Getting Started
+# \ Getting Started
 
 # 
 
-# 1\. Assemble your machine using the instructions in `docs/`
+# 1\. Assemble your machine using the instructions
 
-# 2\. Flash `grblHAL\_teensy4.hex` to your Teensy 4.1 using any Teensy-compatible flashing tool
+# 2\. Flash `.hex` to your Teensy 4.1 using any Teensy-compatible flashing tool (teensy.exe)
 
-# 3\. Launch `ioSender` from the provided ZIP
+# 3\. Download and extract `ioSender` from the provided ZIP
 
 # 4\. Connect to your machine, configure settings, and start cutting!
 
@@ -163,11 +120,11 @@
 
 # 
 
-# \## 🧑‍🏫 Educational Use
+# \ Educational Use
 
 # 
 
-# This project is tailored for use in schools, makerspaces, and research labs. The provided curriculum aligns with engineering design, CNC machining, and embedded systems fundamentals.
+# This project is tailored for use in schools, makerspaces, and research labs. The provided curriculum aligns with design and performance of this specific machine.
 
 # 
 
@@ -179,13 +136,13 @@
 
 # 
 
-# \## 🙏 Credits
+# \ Credits
 
 # 
 
-# \- Original hardware and curriculum by Tyler Woodard
+# \- Original mechanical design and curriculum by Tyler Woodard, John Greene, and Colby Hale
 
-# \- Firmware and sender software by Terje Io / Phil Barrett
+# \- Firmware and sender software by Phil Barrett / Terje Io
 
 # 
 
