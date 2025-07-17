@@ -9,7 +9,7 @@
 # \- Mechanical design (SolidWorks files)
 ![CAD Model](Photos/CAD-Model-SC.png)
 # \- Assembly + wiring instructions
-
+![Wiring Diagram](Photos/Wiring Diagram.png)
 # \- Educational curriculum tailored for the machine
 ![Crank Slider Air Engine Demo](Photos/MIT-First-Crankslider.jpg)
 # \- Open-source firmware and control software for ease of use
