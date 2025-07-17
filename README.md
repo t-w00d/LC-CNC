@@ -1,9 +1,10 @@
-# LC-CNC
-# \ Low-Cost CNC Desktop Milling Machine
+# Low-Cost CNC Desktop Milling Machine
 
 # 
 
-# \ This repository contains all necessary design files, documentation, and software binaries to build and run a low-cost desktop CNC machine. It includes: 
+# |LC-CNC|
+
+# This repository contains all necessary design files, documentation, and software binaries to build and run a low-cost desktop CNC machine. It includes: 
 
 # \- Mechanical design (SolidWorks files)
 
@@ -15,7 +16,7 @@
 
 #
 
-# \ Purchasing: 
+# |Purchasing| 
 
 # - All Machine/Electrical Components are required for the assembly of the LC-CNC
 
@@ -27,7 +28,7 @@
 
 #
 
-# \ Downloads
+# |Downloads|
 
 # To avoid the need to navigate external GitHub repositories, the following software is bundled in the `binaries/` folder:
 
@@ -43,7 +44,7 @@
 
 #
 
-# \ Getting Started
+# |Getting Started|
 
 # 1\. Assemble your machine using the instructions
 
@@ -55,7 +56,7 @@
 
 #
 
-# \ Educational Use
+# |Educational Use|
 
 # This project is tailored for use in schools, makerspaces, and research labs. The provided curriculum aligns with design and performance of this specific machine.
 
@@ -63,7 +64,7 @@
 
 #
 
-# \ License
+# |License|
 
 # All original work in this repository (CAD files, documentation, and curriculum) is licensed under the \*\*Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)\*\*.
 
@@ -71,7 +72,7 @@
 
 #
 
-# \ Third-Party Software
+# |Third-Party Software|
 
 # See `THIRD\_PARTY\_LICENSES.txt` for licensing details of the included firmware and sender application.
 
@@ -81,7 +82,7 @@
 
 #
 
-# \ Credits
+# |Credits|
 
 # \- Original mechanical design and curriculum by Tyler Woodard, John Greene, and Colby Hale
 
