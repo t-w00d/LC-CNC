@@ -1,8 +1,8 @@
 This repository includes third-party software distributed under the following licenses:
 
-1. grblHAL-teensy-4.x - by Phil Barrett  
+1. grblHAL - by Terje Io  
    License: GNU General Public License v3.0 or later  
-   Source: https://github.com/phil-barrett/grblHAL-teensy-4.x
+   Source: https://github.com/grblHAL
 
 2. ioSender - by Terje Io  
    License: BSD 3-Clause  

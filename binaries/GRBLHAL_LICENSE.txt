@@ -1,3 +1,4 @@
-GRBLHAL - Firmware for Teensy 4.1  
+grblHAL - Firmware for Teensy 4.1  
 Licensed under GNU General Public License v3.0 or later  
-Source: https://github.com/terjeio/grblHAL
+Source: https://github.com/grblHAL
+Created with web-builder: https://svn.io-engineering.com:8443/
