@@ -7,7 +7,7 @@
 # This repository contains all necessary design files, documentation, and software binaries to build and run a low-cost desktop CNC machine. It includes: 
 
 # \- Mechanical design (SolidWorks files)
-
+![CAD Model](Photos/CAD-Model-SC.png)
 # \- Assembly + wiring instructions
 
 # \- Educational curriculum tailored for the machine
