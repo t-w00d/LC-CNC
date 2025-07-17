@@ -33,7 +33,7 @@
 
 # \- \*\*grblHAL for Teensy 4.x\*\*  
 
-# https://github.com/phil-barrett/grblHAL-teensy-4.x
+# https://github.com/grblHAL
 
 # \- \*\*ioSender\*\*  
 
