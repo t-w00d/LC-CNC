@@ -1,5 +1,5 @@
 # Low-Cost CNC Desktop Milling Machine
-
+![LC CNC Photo](Photos/LC-CNC.jpg)
 # 
 
 # |LC-CNC|
