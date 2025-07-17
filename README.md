@@ -11,7 +11,7 @@
 # \- Assembly + wiring instructions
 
 # \- Educational curriculum tailored for the machine
-
+![Crank Slider Air Engine Demo](Photos/MIT-First-Crankslider.jpg)
 # \- Open-source firmware and control software for ease of use
 
 #
