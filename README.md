@@ -14,6 +14,8 @@
 ![Crank Slider Air Engine Demo](Photos/MIT-First-Crankslider.jpg)
 # \- Open-source firmware and control software for ease of use
 ![Sender Software](Photos/Sample-Software-SC.PNG)
+# \- Bill of Materials
+
 #
 
 # |Purchasing| 
