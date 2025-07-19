@@ -28,6 +28,10 @@
 
 #	NOTE: Most tools are standard so only buy the specific tools you do not own
 
+# - Recommendations are optional and only slightly improve user experience
+
+#	NOTE: The table for the machine must be able to support 150lbs 
+
 #
 
 # |Downloads|
