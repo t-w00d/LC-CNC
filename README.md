@@ -38,15 +38,11 @@
 
 # To avoid the need to navigate external GitHub repositories, the following software is bundled in the `binaries/` folder:
 
-# \- \*\*grblHAL for Teensy 4.x\*\*  
+# -teensy.exe
+# -ioSender.XL.2.0.46.zip
+# -firmware.hex
 
-# https://github.com/grblHAL
-
-# \- \*\*ioSender\*\*  
-
-# https://github.com/terjeio/ioSender
-
-# These versions are known to work with the mechanical and electrical configuration provided in this repository. No modifications were made to the source code.
+# Download these versions that are known to work with the mechanical and electrical configuration provided in this repository. No modifications were made to the source code.
 
 #
 
@@ -84,7 +80,11 @@
 
 # \- grblHAL (GPL-3.0+)
 
+# https://github.com/grblHAL
+
 # \- ioSender (BSD-3-Clause)
+
+# https://github.com/terjeio/ioSender
 
 #
 
