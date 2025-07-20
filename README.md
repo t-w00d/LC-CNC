@@ -4,10 +4,11 @@
 
 # |LC-CNC|
 
-# This repository contains all necessary design files, documentation, and software binaries to build and run a low-cost desktop CNC machine. It includes: 
+# This repository contains all necessary design files, instruction documents, and software binaries to build and run a low-cost desktop CNC machine. It includes: 
 
-# \- Mechanical design (SolidWorks files)
+# \- Mechanical/Electrical design (SolidWorks files)
 ![CAD Model](Photos/CAD-Model-SC.png)
+![CAD Model](Photos/Electrical-box.png)
 # \- Assembly + wiring instructions
 ![Wiring Diagram](Photos/Wiring-Diagram.png)
 # \- Educational curriculum tailored for the machine
@@ -15,10 +16,12 @@
 # \- Open-source firmware and control software for ease of use
 ![Sender Software](Photos/Sample-Software-SC.PNG)
 # \- Bill of Materials
+# \- Performance evaluations (error motions and circle-diamond-square)
+# \- User manuals and datasheets
 
 #
 
-# |Purchasing| 
+# |Purchasing| (CNC-BoM.xlsx.)
 
 # - All Machine/Electrical Components are required for the assembly of the LC-CNC
 
@@ -30,7 +33,9 @@
 
 # - Recommendations are optional and only slightly improve user experience
 
-#	NOTE: The table for the machine must be able to support 150lbs 
+#	NOTE: The table for the machine must be able to support 150lbs.
+
+#	NOTE: Computer requirements: OS-Windows 10/11; Must have an ethernet port
 
 #
 
@@ -48,13 +53,15 @@
 
 # |Getting Started|
 
-# 1\. Assemble your machine using the instructions
+# 1\. Purchase necessary items from CNC-BoM.xlsx.
 
-# 2\. Flash `.hex` to your Teensy 4.1 using any Teensy-compatible flashing tool (teensy.exe)
+# 2\. Assemble your machine using the instructions
 
-# 3\. Download and extract `ioSender` from the provided ZIP
+# 3\. Flash `.hex` to your Teensy 4.1 using any Teensy-compatible flashing tool (teensy.exe)
 
-# 4\. Connect to your machine, configure settings, and start cutting! 
+# 4\. Download and extract `ioSender` from the provided ZIP
+
+# 5\. Connect to your machine, configure settings, and start cutting! 
 
 #
 
