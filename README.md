@@ -11,10 +11,9 @@
 ![CAD Model](Photos/Electrical-box.png)
 # \- Assembly + wiring instructions
 ![Wiring Diagram](Photos/Wiring-Diagram.png)
-# \- Educational curriculum tailored for the machine
-![Crank Slider Air Engine Demo](Photos/MIT-First-Crankslider.jpg)
 # \- Open-source firmware and control software for ease of use
 ![Sender Software](Photos/Sample-Software-SC.PNG)
+# \- Educational curriculum tailored for the machine
 # \- Bill of Materials
 # \- Performance evaluations (error motions and circle-diamond-square)
 # \- User manuals and datasheets
