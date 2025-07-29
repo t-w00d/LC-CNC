@@ -1,16 +1,21 @@
 %
+;
+; 2025-07-28T14:59
+;
 ; grblHAL
-; 1.1f.20240604
+; 1.1f.20250611
 ; [OPT:VNMSL+,100,1024,3,0]
-; [NEWOPT:ENUMS,RT+,OS,ES,REBOOT,SED,RTC]
+; [NEWOPT:ENUMS,RT+,HOME,PROBES=1,ES,REBOOT,SED,ETH]
 ; [FIRMWARE:grblHAL]
 ; [NVS STORAGE:*FLASH]
-; [FREE MEMORY:484K]
+; [FREE MEMORY:480K]
 ; [DRIVER:iMXRT1062]
-; [DRIVER VERSION:240404]
+; [DRIVER VERSION:250528]
 ; [DRIVER OPTIONS:USB.1]
 ; [BOARD:T41U5XBB]
-; [AUX IO:3,3,0,0]
+; [AUX IO:6,3,0,0]
+; [IP:169.254.28.238]
+; [NETCON:Telnet]
 ;
 $N0=
 $N1=
@@ -22,13 +27,13 @@ $1=25
 $2=0
 ; 3 - Step direction invert
 $3=0
-; 4 - Invert stepper enable pin(s)
+; 4 - Invert stepper enable output(s)
 $4=7
-; 5 - Invert limit pins
-$5=0
-; 6 - Invert probe pin
+; 5 - Invert limit inputs
+$5=7
+; 6 - Invert probe inputs
 $6=1
-; 9 - PWM Spindle
+; 9 - PWM spindle options
 $9=1
 ; 10 - Status report options
 $10=511
@@ -38,17 +43,17 @@ $11=0.010
 $12=0.002
 ; 13 - Report in inches
 $13=0
-; 14 - Invert control pins
-$14=0
-; 15 - Invert coolant pins
+; 14 - Invert control inputs
+$14=8
+; 15 - Invert coolant outputs
 $15=0
 ; 16 - Invert spindle signals
 $16=0
-; 17 - Pullup disable control pins
+; 17 - Pullup disable control inputs
 $17=0
-; 18 - Pullup disable limit pins
+; 18 - Pullup disable limit inputs
 $18=0
-; 19 - Pullup disable probe pin
+; 19 - Pullup disable probe inputs
 $19=0
 ; 20 - Soft limits enable
 $20=0
@@ -59,13 +64,13 @@ $22=1
 ; 23 - Homing direction invert
 $23=0
 ; 24 - Homing locate feed rate
-$24=25.0
+$24=100.0
 ; 25 - Homing search seek rate
 $25=500.0
 ; 26 - Homing switch debounce delay
 $26=250
 ; 27 - Homing switch pull-off distance
-$27=1.000
+$27=12.700
 ; 28 - G73 Retract distance
 $28=0.100
 ; 29 - Pulse delay
@@ -84,7 +89,7 @@ $34=0.0
 $35=0.0
 ; 36 - Spindle PWM max value
 $36=100.0
-; 37 - Steppers deenergize
+; 37 - Steppers to keep enabled
 $37=0
 ; 39 - Enable legacy RT commands
 $39=1
@@ -120,8 +125,10 @@ $62=0
 $63=3
 ; 64 - Force init alarm
 $64=0
-; 65 - Probing feed override
+; 65 - Probing options
 $65=0
+; 70 - Network Services
+$70=1
 ; 100 - X-axis travel resolution
 $100=640.000
 ; 101 - Y-axis travel resolution
@@ -129,17 +136,17 @@ $101=640.000
 ; 102 - Z-axis travel resolution
 $102=640.000
 ; 110 - X-axis maximum rate
-$110=1500.000
+$110=7500.000
 ; 111 - Y-axis maximum rate
-$111=1500.000
+$111=7500.000
 ; 112 - Z-axis maximum rate
-$112=1500.000
+$112=7500.000
 ; 120 - X-axis acceleration
-$120=50.000
+$120=250.000
 ; 121 - Y-axis acceleration
-$121=50.000
+$121=250.000
 ; 122 - Z-axis acceleration
-$122=50.000
+$122=250.000
 ; 130 - X-axis maximum travel
 $130=200.000
 ; 131 - Y-axis maximum travel
@@ -152,6 +159,20 @@ $160=0.013
 $161=0.013
 ; 162 - Z-axis backlash compensation
 $162=0.000
+; 300 - Hostname
+$300=grblHAL
+; 301 - IP Mode
+$301=0
+; 302 - IP Address
+$302=169.254.28.238
+; 303 - Gateway
+$303=169.254.28.1
+; 304 - Netmask
+$304=255.255.0.0
+; 305 - Telnet port
+$305=23
+; 307 - Websocket port
+$307=80
 ; 341 - Tool change mode
 $341=0
 ; 342 - Tool change probing distance
@@ -162,10 +183,10 @@ $343=25.0
 $344=200.0
 ; 345 - Tool change probe pull-off rate
 $345=200.0
-; 346 - Restore position after M6
+; 346 - Tool change options
 $346=1
 ; 370 - Invert I/O Port inputs
-$370=128
+$370=0
 ; 372 - Invert I/O Port outputs
 $372=0
 ; 384 - Disable G92 persistence
@@ -174,6 +195,8 @@ $384=0
 $392=4.0
 ; 393 - Coolant on delay
 $393=1.0
+; 394 - Spindle on delay
+$394=0.0
 ; 398 - Planner buffer blocks
 $398=100
 ; 481 - Autoreport interval
@@ -182,4 +205,12 @@ $481=0
 $484=0
 ; 486 - Lock coordinate systems
 $486=0
+; 539 - Spindle off delay
+$539=0.0
+; 673 - Coolant on delay
+$673=0.0
+; 676 - Reset actions
+$676=3
+; 680 - Stepper enable delay
+$680=0
 %
