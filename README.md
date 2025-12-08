@@ -18,6 +18,7 @@
 # \- Performance evaluations (error motions and circle-diamond-square)
 # \- User manuals and datasheets
 
+# |Specs|
 # Current version uses machined 6061-T6 aluminum for the base, saddle, and column
 # Driven by NEMA 23 motors with 2.45 N-m holding torque and DM556/DM566 drivers
 # Motion system includes 16 mm ball screws and HGR20 linear rails for all axes
