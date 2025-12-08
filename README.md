@@ -18,7 +18,13 @@
 # \- Performance evaluations (error motions and circle-diamond-square)
 # \- User manuals and datasheets
 
-# Version 3 represents the most current configuration and uses machined 6061-T6 aluminum components for the base, column, and saddle. Motion is driven through NEMA 23 stepper motors paired with 16 mm ball screws and supported by HGR20 linear rails. A 2.2 kW air-cooled spindle is integrated and powered through a variable-frequency drive operating off standard 110 V AC input. Footprint remains compact at roughly 660 mm square The electronic system is centered around a Teensy 4.1 controller running GRBLHAL, allowing industrial-style configuration of tool offsets, backlash compensation, and program execution using ioSender. Users can post programs directly from Fusion 360 using standard GRBL post-processing workflows Performance has been validated through modal testing, error motion characterization, and execution of the ISO 10791 circle-diamond-square test. Measurements include translational and rotational error motions, stiffness characterization, damping ratios across key modes, and tolerance deviation benchmarking against an industrial Haas VF-4 machine. Results demonstrate acceptable accuracy for educational and prototyping use cases The machine has also been packaged into an educational kit format and deployed externally, including first-build instructions and guided assembly documentation for classroom use 
+# Current version uses machined 6061-T6 aluminum for the base, saddle, and column
+# Driven by NEMA 23 motors with 2.45 N-m holding torque and DM556/DM566 drivers
+# Motion system includes 16 mm ball screws and HGR20 linear rails for all axes
+# 2.2 kW air-cooled spindle requires a VFD but runs on standard 110 V supply
+# Controller is a Teensy 4.1 running GRBLHAL for machine control and compensation
+# Machine footprint is roughly 660 mm x 660 mm
+# Work volume: 152 mm x 254 mm x 152 mm 
 
 
 # |Purchasing| (CNC-BoM.xlsx.)
